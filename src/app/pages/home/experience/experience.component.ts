@@ -14,7 +14,7 @@ export class ExperienceComponent {
     {
       headerColor: '#41516C',
       companyName: 'Trading Plan Club',
-      companyUrl: 'https://github.com/tradingplan',
+      companyUrl: 'https://www.tradingplan.com.br',
       period: '2024 – Atual',
       position: 'Founder & AI Product Engineer',
       techStack: 'TypeScript, React, Next.js, Node.js, PostgreSQL, OpenAI, Anthropic, Docker',

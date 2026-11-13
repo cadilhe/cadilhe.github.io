@@ -74,7 +74,7 @@ export class ProjectsComponent {
       description: 'Aplicativo de autoconhecimento baseado em arquétipos e orientação personalizada.',
       imgSrc: 'assets/screens/aurora-app.png',
       demoUrl: 'https://play.google.com/store/apps/details?id=online.oraculoaurora.app',
-      tags: ['Android', 'Lifestyle']
+      tags: ['Android', 'Lifestyle', 'Espiritualidade']
     },
     {
       title: 'Dicionario Maritimo Lite',
