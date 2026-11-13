@@ -27,12 +27,16 @@ npm start
 ```
 
 ## Deploy
-O build gera os arquivos em `dist/cadilhe.github.io/`. Para publicar:
+Para compilar e preparar os arquivos para o GitHub Pages (pasta `/docs`):
 
 ```bash
-npm run build
+npm run deploy
+git add docs
+git commit -m "Deploy no GitHub Pages"
+git push
 ```
-Copie o conteúdo de `dist/cadilhe.github.io/browser/` para `docs/` e faça push. O GitHub Pages está configurado para servir da pasta `/docs` na branch `main`.
+
+O comando `npm run deploy` compila o Angular (`ng build`) e copia automaticamente o conteúdo gerado para a pasta `/docs`, pronto para publicação.
 
 ## Inspiração
 Design inspirado no trabalho de [Sajid](https://www.iamsajid.com/). Template original: [angular-template-my-website](https://github.com/diprefranco/angular-template-my-website).
