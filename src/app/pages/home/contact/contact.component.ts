@@ -12,6 +12,7 @@ export class ContactComponent implements OnInit {
   email!: string;
   emailUrl!: string;
   linkedInUrl!: string;
+  githubUrl!: string;
 
   private resourceService = inject(ResourceService);
 
@@ -23,5 +24,6 @@ export class ContactComponent implements OnInit {
     this.email = this.resourceService.getEmail();
     this.emailUrl = this.resourceService.getEmailUrl();
     this.linkedInUrl = this.resourceService.getLinkedInUrl();
+    this.githubUrl = this.resourceService.getGithubUrl();
   }
 }

@@ -115,14 +115,31 @@ ul li .job-content {
   background: var(--colorp2);
   position: relative;
   padding-inline: 1.5rem;
+  padding-block: 1.5rem 1rem;
   border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  font-weight: 500;
 }
 
-ul li .job-content {
-  overflow: hidden;
-  padding-block-start: 1.5rem;
-  padding-block-end: 1rem;
-  font-weight: 500;
+ul.job-details {
+  display: block;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+ul.job-details::before {
+  display: none;
+}
+
+ul.job-details li {
+  display: list-item;
+  list-style-type: disc;
+  margin: 0 0 0.25rem 1.2rem;
+  padding: 0;
+  font-size: .9rem;
+  font-weight: 400;
+  color: var(--colorsecondary);
+  line-height: 1.5;
 }
 
 @media (min-width: 40rem) {

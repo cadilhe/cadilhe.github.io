@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ResourceService {
-  private email = 'diprefranco@gmail.com';
+  private email = 'carlos.cadilhe@gmail.com';
 
   getEmail(): string {
     return this.email;
@@ -15,14 +15,14 @@ export class ResourceService {
   }
 
   getLinkedInUrl(): string {
-    return 'https://www.linkedin.com/in/dipre-franco/';
+    return 'https://www.linkedin.com/in/cadilhe/';
   }
 
   getGithubUrl(): string {
-    return 'https://github.com/diprefranco';
+    return 'https://github.com/cadilhe';
   }
 
   getStackoverflowUrl(): string {
-    return 'https://stackoverflow.com/users/6809179';
+    return 'https://kanimambo.net';
   }
 }

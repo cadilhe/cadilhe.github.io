@@ -1,13 +1,17 @@
 <div id="projects">
-  <h2>Projects</h2>
+  <h2>Projetos Recentes</h2>
 </div>
 
 <section class="projects">
   <div *ngFor="let project of projects">
-    <web-img [src]="project.imgSrc" [width]="700" [height]="395" alt="Project screenshot"></web-img>
+    <web-img *ngIf="project.imgSrc" [src]="project.imgSrc" [width]="700" [height]="395" alt="Project screenshot"></web-img>
+    <h3>{{project.title}}</h3>
     <p>{{project.description}}</p>
+    <div *ngIf="project.tags" class="project-tags">
+      <span *ngFor="let tag of project.tags" class="tag">{{tag}}</span>
+    </div>
     <br />
-    <a href="{{project.demoUrl}}" target="_blank" aria-label="Go to a demo">Demo</a>
-    <a href="{{project.codeUrl}}" target="_blank" aria-label="View the code on GitHub">Code</a>
+    <a *ngIf="project.demoUrl" href="{{project.demoUrl}}" target="_blank" aria-label="Go to a demo">Demo</a>
+    <a *ngIf="project.codeUrl" href="{{project.codeUrl}}" target="_blank" aria-label="View the code on GitHub">Code</a>
   </div>
 </section>
