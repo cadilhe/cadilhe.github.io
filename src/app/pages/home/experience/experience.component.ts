@@ -42,7 +42,7 @@ export class ExperienceComponent {
     {
       headerColor: '#F18F01',
       companyName: 'R4You',
-      companyUrl: undefined,
+      companyUrl: 'https://www.r4you.co',
       period: '2021 – 2022',
       position: 'Software Engineer',
       techStack: 'Angular, C#.Net, Entity Framework, Azure DevOps, PostgreSQL',
@@ -56,14 +56,14 @@ export class ExperienceComponent {
     {
       headerColor: '#C73E1D',
       companyName: 'Instituto Ilhabela Sustentável',
-      companyUrl: undefined,
+      companyUrl: 'https://www.iis.org.br',
       period: '2012 – 2023',
       position: 'Software Engineer / Business Intelligence',
-      techStack: 'C#.Net, SQL, Tableau, PostgreSQL, Automação',
+      techStack: 'PHP, Wordpress, Tableau, SQL, Google, Microsoft',
       details: [
         'Sistemas de informação, plataformas digitais e Business Intelligence.',
-        'Modelagem de banco de dados, dashboards Tableau e análise de indicadores.',
-        'Automação de processos e relatórios gerenciais para tomada de decisão.'
+        'Modelagem de banco de dados, análise de indicadores.',
+        'Manutenção da infra-estrutura digtal e relatórios gerenciais para tomada de decisão.'
       ]
     },
     {
